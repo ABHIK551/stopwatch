@@ -1,0 +1,79 @@
+body{
+    background: url(images/tree.jpg)no-repeat center center fixed;
+    background-size:cover;
+    color: white;
+    padding: 4%;
+}
+#header{
+/*    title*/
+    text-align: center;
+    font-size: 7vw;
+    color: white;
+}
+/*lap*/
+#lap{
+    text-align: right;
+   font-size: 4vh;
+}
+
+/*Time*/
+#time{
+    text-align: center;
+    font-size: 10vh;
+}
+
+/*controls*/
+}
+#controlsContainer{
+    margin-bottom: 100px;
+    padding-left: 2px;
+}
+.control{
+    text-align: center;
+    background-color: #1F362E;
+    box-shadow: 1px 1px 8px 1px orange;
+    opacity: 0.9;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+.control:active{
+    text-align: center;
+    color: #d7A04e;
+    background-color: #fff;
+    opacity: 0.4;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+.row{
+    padding-left: 2.9%;
+    margin-bottom: 5%;
+}
+
+/*lapse*/
+#lapse{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+/*inside lapse lap title and laptime styling*/
+.lap{
+  height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.lapTimeTitle{
+  font-size: 1.5em;
+    float: left;
+}
+.lapTime{
+    font-size: 2eml;
+    float: right;
+}

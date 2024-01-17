@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stopwatch application</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="stopwatch.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="stopwatch.js">
+        
+      </script>
+      <style>
+         
+      </style>
+  </head>
+  <body>
+      <div class="container-fluid">
+<!--          Title-->
+          <div class="header" id="header">
+              Stopwatch
+          </div>
+          
+<!--          Lap time-->
+          <div id="lap">
+              <span id="lapMinute">00</span> :
+              <span id="lapSecond">00</span> :
+              <span id="lapMiniSecond">00</span>
+          </div>
+          
+<!--          Time-->
+           <div id="time">
+              <span id="timeMinute">00</span> :
+              <span id="timeSecond">00</span> :
+              <span id="timeMiniSecond">00</span>
+          </div>
+          
+<!--          controls-->
+          <div class="row justify-content-center" id="controlsContainer">
+              <div class="col-sm-2">
+                  <div id="startButton" class="control">
+                      Start
+                  </div>
+                  
+                  <div id="stopButton" class="control">
+                      Stop
+                  </div>
+                  
+                  <div id="resumeButton" class="control">
+                      Resume
+                  </div>
+              </div>
+               <div class="col-sm-2">
+                  <div id="lapButton" class="control">
+                      Lap
+                  </div>
+                  
+                  <div id="resetButton" class="control">
+                      Reset
+                  </div>
+              </div>
+          </div>
+          
+<!--          lapse-->
+          <div id="lapse">
+              
+          </div>
+      </div> 
+  </body>
+</html>
